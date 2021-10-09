@@ -1,7 +1,6 @@
 import { Entity } from './entity.js'
 import createPool from 'reuse-pool'
 import EventEmitter from 'events'
-import { deriveObjectName } from '../utils/derive-object-name.js'
 
 const poolFactory = () => {
   return new Entity()
