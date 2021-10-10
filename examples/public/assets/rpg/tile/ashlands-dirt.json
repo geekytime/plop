@@ -1,0 +1,105 @@
+{
+	"meta": {
+		"image": "ashlands-dirt.png",
+		"size": {"w":256,"h":256},
+		"scale": "1"
+	},
+	"frames": {
+		"ashlands-dirt-000.png":
+		{
+			"frame": {"x":2,"y":2,"w":48,"h":48},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+			"sourceSize": {"w":48,"h":48}
+		},
+		"ashlands-dirt-001.png":
+		{
+			"frame": {"x":54,"y":2,"w":48,"h":48},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+			"sourceSize": {"w":48,"h":48}
+		},
+		"ashlands-dirt-002.png":
+		{
+			"frame": {"x":2,"y":54,"w":48,"h":48},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+			"sourceSize": {"w":48,"h":48}
+		},
+		"ashlands-dirt-003.png":
+		{
+			"frame": {"x":54,"y":54,"w":48,"h":48},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+			"sourceSize": {"w":48,"h":48}
+		},
+		"ashlands-dirt-004.png":
+		{
+			"frame": {"x":106,"y":2,"w":48,"h":48},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+			"sourceSize": {"w":48,"h":48}
+		},
+		"ashlands-dirt-005.png":
+		{
+			"frame": {"x":106,"y":54,"w":48,"h":48},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+			"sourceSize": {"w":48,"h":48}
+		},
+		"ashlands-dirt-006.png":
+		{
+			"frame": {"x":2,"y":106,"w":48,"h":48},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+			"sourceSize": {"w":48,"h":48}
+		},
+		"ashlands-dirt-007.png":
+		{
+			"frame": {"x":54,"y":106,"w":48,"h":48},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+			"sourceSize": {"w":48,"h":48}
+		},
+		"ashlands-dirt-008.png":
+		{
+			"frame": {"x":106,"y":106,"w":48,"h":48},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+			"sourceSize": {"w":48,"h":48}
+		},
+		"ashlands-dirt-009.png":
+		{
+			"frame": {"x":158,"y":2,"w":48,"h":48},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+			"sourceSize": {"w":48,"h":48}
+		},
+		"ashlands-dirt-010.png":
+		{
+			"frame": {"x":158,"y":54,"w":48,"h":48},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+			"sourceSize": {"w":48,"h":48}
+		},
+		"ashlands-dirt-011.png":
+		{
+			"frame": {"x":158,"y":106,"w":48,"h":48},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
+			"sourceSize": {"w":48,"h":48}
+		}
+	}
+}

@@ -6,25 +6,30 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "assets-rpg": "./scripts/assets-rpg.js"
+    "assets-rpg": "./src-rpg/scripts/assets-rpg.js"
   },
   "dependencies": {
     "@plop/core": "*",
     "core-js": "^3.6.5",
     "debounce": "^1.2.1",
     "js-easing-functions": "^1.0.3",
+    "lerpjs": "^1.1.2",
+    "pixi-viewport": "^4.33.0",
     "pixi.js": "^6.1.3",
     "random-float": "^3.0.0",
     "random-int": "^3.0.0",
+    "random-weighted-choice": "^0.1.4",
     "tween.js": "^16.6.0",
     "vue": "^2.6.11",
-    "vue-router": "^3.5.2"
+    "vue-router": "^3.5.2",
+    "weighted-random-object": "^1.0.8"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/eslint-config-standard": "^5.1.2",
+    "auto-tile-webpack-plugin": "^0.11.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",

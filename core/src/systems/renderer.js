@@ -2,9 +2,10 @@ import { Application, Container } from 'pixi.js'
 import debounce from 'debounce'
 import randomInt from 'random-int'
 import { Transform } from '../components/transform.js'
+import { Viewport } from 'pixi-viewport'
 
 const pixiDefaults = {
-  backgroundColor: 0x1099bb,
+  backgroundColor: 0,
   resolution: window.devicePixelRatio || 1,
   antialias: true,
   powerPreference: 'high-performance'
@@ -16,6 +17,7 @@ export class Renderer {
       ...pixiDefaults,
       ...pixiOptions
     }
+    this.resizeState = 'needsResize'
   }
 
   init () {
@@ -31,6 +33,19 @@ export class Renderer {
     this.app.stage = new Container()
     this.stage = this.app.stage
 
+    this.viewport = new Viewport({
+      screenWidth: this.width,
+      screenHeight: this.height,
+      // TODO: Fix the world size!
+      worldWidth: 128 * 48,
+      worldHeight: 128 * 48,
+      noTicker: true,
+      interaction: this.app.renderer.plugins.interaction
+    })
+    this.viewport.wheel()
+
+    this.stage.addChild(this.viewport)
+
     this.doResize()
 
     const debouncedHandleResize = debounce(this.handleResize, 50)
@@ -40,23 +55,19 @@ export class Renderer {
 
   checkForTransforms = ({ entity, component, componentName }) => {
     if (component instanceof Transform) {
-      this.stage.addChild(entity.transform)
+      this.viewport.addChild(entity.transform)
     }
   }
 
   handleResize = event => {
-    this.needsResize = true
+    this.resizeState = 'needsResize'
   }
 
   update () {
-    if ((this.didResize = true)) {
-      this.didResize = false
-    }
-
-    if (this.needsResize) {
+    if (this.resizeState === 'needsResize') {
       this.doResize()
-      this.didResize = true
     }
+    this.viewport.update()
   }
 
   doResize () {
@@ -64,8 +75,9 @@ export class Renderer {
     this.height = window.innerHeight
     this.app.renderer.resize(this.width, this.height)
     this.stage.scale.set(1)
-    this.needsResize = false
-    this.didResize = true
+    this.viewport.screenWidth = this.width
+    this.viewport.screenHeight = this.height
+    this.resizeState = 'noResize'
   }
 
   get view () {

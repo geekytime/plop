@@ -8,7 +8,8 @@ export class Assets {
       'assets/rpg/ent/char/reaper/reaper-north.json',
       'assets/rpg/ent/char/reaper/reaper-south.json',
       'assets/rpg/ent/char/reaper/reaper-east.json',
-      'assets/rpg/ent/char/reaper/reaper-west.json'
+      'assets/rpg/ent/char/reaper/reaper-west.json',
+      'assets/rpg/tile/ashlands-dirt.json'
     ])
   }
 }

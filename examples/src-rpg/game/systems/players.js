@@ -7,6 +7,8 @@ export class Players {
     const { fourWayAnims, keyInput } = this.game.systems
     this.player1 = entities.createEntity()
     this.player1.addComponent(new Transform())
+    this.player1.transform.x = 300
+    this.player1.transform.y = 300
     this.player1.addTags('player1')
 
     const components = fourWayAnims.addComponents(this.player1, 'reaper')
