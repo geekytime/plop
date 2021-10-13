@@ -1,0 +1,13 @@
+{
+  "name": "@plop/examples-aquarium",
+  "version": "1.0.0",
+  "main": "src/aquarium.vue",
+  "license": "MIT",
+  "scripts": {
+    "assets": "./scripts/assets.js"
+  },
+  "dependencies": {
+    "random-float": "^3.0.0",
+    "tween.js": "^16.6.0"
+  }
+}

@@ -2,9 +2,9 @@ import { CompositeTilemap } from '@pixi/tilemap'
 import weightedRandom from 'weighted-random-object'
 
 export class Tilemap {
-  constructor ({ atlasName, tileSize }) {
-    this.atlasName = atlasName
-    this.tileSize = tileSize
+  constructor ({ atlas }) {
+    this.atlasName = atlas.name
+    this.tileSize = atlas.tileSize
 
     this.tilemap = new CompositeTilemap()
   }

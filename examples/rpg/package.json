@@ -1,0 +1,13 @@
+{
+  "name": "@plop/examples-rpg",
+  "version": "1.0.0",
+  "main": "src/rpg.vue",
+  "license": "MIT",
+  "scripts": {
+    "assets": "./scripts/assets.js"
+  },
+  "dependencies": {
+    "@plop/assets": "*",
+    "@plop/core": "*"
+  }
+}
