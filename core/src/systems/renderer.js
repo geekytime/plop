@@ -1,4 +1,5 @@
 import { Application, Container } from 'pixi.js'
+import * as PIXI from 'pixi.js'
 import debounce from 'debounce'
 import randomInt from 'random-int'
 import { Transform } from '../components/transform.js'

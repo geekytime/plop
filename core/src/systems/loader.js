@@ -1,8 +1,12 @@
 import { Loader as PixiLoader, utils as PixiUtils } from 'pixi.js'
+import * as PIXI from 'pixi.js'
 import pathParse from 'path-parse'
 
 export class Loader {
-  constructor () {
+  constructor ({ defaultScaleMode } = {}) {
+    if (defaultScaleMode === 'pixelated') {
+      PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST
+    }
     this.pixiLoader = new PixiLoader()
   }
 

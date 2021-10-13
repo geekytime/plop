@@ -15,6 +15,10 @@ export class Terrain {
       return new Array(128).fill('').map(() => {
         const chance = randomInt(0, 100)
         if (chance <= 1) {
+          return {
+            name: 'ashlands-tree',
+            data: {}
+          }
         }
       })
     })
@@ -26,7 +30,7 @@ export class Terrain {
           name: 'ashlands-dirt',
           width: 4,
           height: 4,
-          tileSize: 48,
+          tileSize: 16,
           tileTypes: {
             a: {
               type: 'basic',

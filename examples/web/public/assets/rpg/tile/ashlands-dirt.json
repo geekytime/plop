@@ -1,105 +1,105 @@
 {
 	"meta": {
 		"image": "ashlands-dirt.png",
-		"size": {"w":256,"h":256},
+		"size": {"w":128,"h":64},
 		"scale": "1"
 	},
 	"frames": {
 		"ashlands-dirt-000.png":
 		{
-			"frame": {"x":2,"y":2,"w":48,"h":48},
+			"frame": {"x":2,"y":2,"w":16,"h":16},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
-			"sourceSize": {"w":48,"h":48}
+			"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+			"sourceSize": {"w":16,"h":16}
 		},
 		"ashlands-dirt-001.png":
 		{
-			"frame": {"x":54,"y":2,"w":48,"h":48},
+			"frame": {"x":22,"y":2,"w":16,"h":16},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
-			"sourceSize": {"w":48,"h":48}
+			"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+			"sourceSize": {"w":16,"h":16}
 		},
 		"ashlands-dirt-002.png":
 		{
-			"frame": {"x":2,"y":54,"w":48,"h":48},
+			"frame": {"x":2,"y":22,"w":16,"h":16},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
-			"sourceSize": {"w":48,"h":48}
+			"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+			"sourceSize": {"w":16,"h":16}
 		},
 		"ashlands-dirt-003.png":
 		{
-			"frame": {"x":54,"y":54,"w":48,"h":48},
+			"frame": {"x":22,"y":22,"w":16,"h":16},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
-			"sourceSize": {"w":48,"h":48}
+			"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+			"sourceSize": {"w":16,"h":16}
 		},
 		"ashlands-dirt-004.png":
 		{
-			"frame": {"x":106,"y":2,"w":48,"h":48},
+			"frame": {"x":42,"y":2,"w":16,"h":16},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
-			"sourceSize": {"w":48,"h":48}
+			"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+			"sourceSize": {"w":16,"h":16}
 		},
 		"ashlands-dirt-005.png":
 		{
-			"frame": {"x":106,"y":54,"w":48,"h":48},
+			"frame": {"x":42,"y":22,"w":16,"h":16},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
-			"sourceSize": {"w":48,"h":48}
+			"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+			"sourceSize": {"w":16,"h":16}
 		},
 		"ashlands-dirt-006.png":
 		{
-			"frame": {"x":2,"y":106,"w":48,"h":48},
+			"frame": {"x":2,"y":42,"w":16,"h":16},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
-			"sourceSize": {"w":48,"h":48}
+			"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+			"sourceSize": {"w":16,"h":16}
 		},
 		"ashlands-dirt-007.png":
 		{
-			"frame": {"x":54,"y":106,"w":48,"h":48},
+			"frame": {"x":22,"y":42,"w":16,"h":16},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
-			"sourceSize": {"w":48,"h":48}
+			"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+			"sourceSize": {"w":16,"h":16}
 		},
 		"ashlands-dirt-008.png":
 		{
-			"frame": {"x":106,"y":106,"w":48,"h":48},
+			"frame": {"x":42,"y":42,"w":16,"h":16},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
-			"sourceSize": {"w":48,"h":48}
+			"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+			"sourceSize": {"w":16,"h":16}
 		},
 		"ashlands-dirt-009.png":
 		{
-			"frame": {"x":158,"y":2,"w":48,"h":48},
+			"frame": {"x":62,"y":2,"w":16,"h":16},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
-			"sourceSize": {"w":48,"h":48}
+			"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+			"sourceSize": {"w":16,"h":16}
 		},
 		"ashlands-dirt-010.png":
 		{
-			"frame": {"x":158,"y":54,"w":48,"h":48},
+			"frame": {"x":62,"y":22,"w":16,"h":16},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
-			"sourceSize": {"w":48,"h":48}
+			"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+			"sourceSize": {"w":16,"h":16}
 		},
 		"ashlands-dirt-011.png":
 		{
-			"frame": {"x":158,"y":106,"w":48,"h":48},
+			"frame": {"x":62,"y":42,"w":16,"h":16},
 			"rotated": false,
 			"trimmed": false,
-			"spriteSourceSize": {"x":0,"y":0,"w":48,"h":48},
-			"sourceSize": {"w":48,"h":48}
+			"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
+			"sourceSize": {"w":16,"h":16}
 		}
 	}
 }
