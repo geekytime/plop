@@ -3,9 +3,11 @@ import * as PIXI from 'pixi.js'
 import pathParse from 'path-parse'
 
 export class Loader {
-  constructor ({ defaultScaleMode } = {}) {
-    if (defaultScaleMode === 'pixelated') {
+  constructor ({ scaleMode } = {}) {
+    if (scaleMode === 'pixelated') {
       PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST
+    } else {
+      PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.LINEAR
     }
     this.pixiLoader = new PixiLoader()
   }
