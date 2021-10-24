@@ -2,6 +2,7 @@
   <div class="nav">
     <router-link to="aquarium">Aquarium</router-link>
     <router-link to="rpg">RPG</router-link>
+    <router-link to="bitmask-tiles">BitmaskTiles</router-link>
   </div>
 </template>
 

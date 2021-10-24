@@ -1,0 +1,11 @@
+{
+  "name": "@plop/generators",
+  "version": "1.0.0",
+  "main": "src/generators.js",
+  "license": "MIT",
+  "dependencies": {
+    "@plop/core": "*",
+    "random-int": "^3.0.0",
+    "rot-js": "^2.2.0"
+  }
+}

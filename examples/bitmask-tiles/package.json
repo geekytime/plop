@@ -1,0 +1,14 @@
+{
+  "name": "@plop/examples-bitmask-tiles",
+  "version": "1.0.0",
+  "main": "src/bitmask-tiles.vue",
+  "license": "MIT",
+  "scripts": {
+    "assets": "cp ./assets/bitmask-grass.png ../web/public/assets/bitmask-tiles/bitmask-grass.png"
+  },
+  "dependencies": {
+    "@plop/assets": "*",
+    "@plop/core": "*",
+    "@plop/generators": "*"
+  }
+}

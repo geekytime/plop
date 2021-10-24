@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
-  "workspaces": ["core", "assets", "examples/*"],
+  "workspaces": ["core", "assets", "generators", "examples/*"],
   "scripts": {
     "assets": "yarn workspace @plop/examples-aquarium run assets && yarn workspace @plop/examples-rpg run assets"
   }

@@ -1,5 +1,5 @@
 {
-  "name": "@plop/aquarium-example",
+  "name": "@plop/examples-web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,8 @@
   "dependencies": {
     "@plop/examples-aquarium": "*",
     "@plop/examples-rpg": "*",
+    "@plop/examples-bitmask-tiles": "*",
+    "ndarray": "^1.0.19",
     "vue": "^2.6.11",
     "vue-router": "^3.5.2"
   },

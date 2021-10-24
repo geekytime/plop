@@ -3,7 +3,7 @@ import randomInt from 'random-int'
 export class Terrain {
   async init () {
     const mapData = await this.readMapData()
-    this.game.systems.terrains.createTerrain({ mapData })
+    this.game.systems.terrains.createFromMapData({ mapData })
   }
 
   async readMapData () {

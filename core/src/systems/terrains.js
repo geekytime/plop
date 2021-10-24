@@ -4,11 +4,10 @@ import { Transform } from '../components/transform.js'
 export class Terrains {
   init () {}
 
-  async createTerrain ({ mapData } = {}) {
+  async createFromMapData ({ mapData } = {}) {
     const { renderer } = this.game.systems
     this.entity = this.game.entities.createEntity()
     this.entity.addComponent(new Transform())
-    this.mapData = mapData
 
     const { terrain } = mapData
     const tilemap = new Tilemap({ atlas: terrain.atlas })
@@ -25,6 +24,13 @@ export class Terrains {
     if (renderer) {
       renderer.viewport.addChild(this.entity.transform)
     }
+  }
+
+  async createSimple () {
+    this.entity = this.game.entities.createEntity()
+    this.entity.addComponent(new Transform())
+
+    const tilemap = new Tilemap({ atlas: terrain.atlas })
   }
 
   update () {

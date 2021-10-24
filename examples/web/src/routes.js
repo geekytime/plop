@@ -6,6 +6,10 @@ const RPG = () => {
   return import('@plop/examples-rpg')
 }
 
+const BitmaskTiles = () => {
+  return import('@plop/examples-bitmask-tiles')
+}
+
 export const routes = [
   {
     path: '/aquarium',
@@ -14,6 +18,10 @@ export const routes = [
   {
     path: '/rpg',
     component: RPG
+  },
+  {
+    path: '/bitmask-tiles',
+    component: BitmaskTiles
   },
   {
     path: '*',
