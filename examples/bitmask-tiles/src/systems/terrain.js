@@ -11,7 +11,7 @@ export class Terrain {
     const layerDatas = terrain({ layerDefs: terrainLayerDefs })
     this.addTerrainLayer({
       tileSize,
-      baseTextureName: 'tfbit-grass-green',
+      baseTextureName: 'grass-green-tiles-8bit',
       layerData: layerDatas[0]
     })
     // this.addTerrainLayer({

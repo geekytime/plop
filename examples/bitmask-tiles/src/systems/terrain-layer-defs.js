@@ -1,15 +1,16 @@
 import {
   generateTerrainCellular,
+  generateTerrainTestPattern,
   generateTerrainFull,
   PickerEven
 } from '@plop/generators'
 
-const width = 256
-const height = 256
+const width = 21
+const height = 23
 
 export const terrainLayerDefs = [
   {
-    algorithm: generateTerrainCellular,
+    algorithm: generateTerrainTestPattern,
     options: {
       width,
       height,

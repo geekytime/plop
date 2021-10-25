@@ -1,5 +1,5 @@
 <template>
-  <div class="splatter-tiles"></div>
+  <div class="bitmask-tiles"></div>
 </template>
 
 <script>
@@ -21,7 +21,7 @@ export default {
   width: 100%;
   height: 100%;
   left: 0;
-  top: 0;
+  top: 2em;
 
   canvas {
     width: 100%;
