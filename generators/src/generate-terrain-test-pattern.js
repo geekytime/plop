@@ -26,8 +26,6 @@ const pattern = [
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ]
 
-console.log(pattern.length, pattern[0].length)
-
 export const generateTerrainTestPattern = ({
   width = pattern[0].length - 1,
   height = pattern.length - 1

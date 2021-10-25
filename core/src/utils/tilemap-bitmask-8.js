@@ -35,7 +35,6 @@ export class TilemapBitmask8 {
           const tileBits =
             bitNW | bitNN | bitNE | bitWW | bitEE | bitSW | bitSS | bitSE
           const tileIndex = bitsToIndex[tileBits]
-          console.log(x, y, tileBits, tileIndex)
           const textureId = `${this.baseTextureName}${tileIndex}.png`
           this.tilemap.tile(textureId, x * this.tileSize, y * this.tileSize)
         }
